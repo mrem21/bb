@@ -1,0 +1,186 @@
+
+* {
+	margin: 0;
+}
+.dws-menu ul {
+	list-style: none;
+	
+}
+.dws-menu > ul {
+	
+	
+	display: flex;
+	float: right;
+	
+}
+.dws-menu > ul li  {
+	border-right: 1px solid #b3b5b7;
+	
+}
+.dws-menu > ul li a {
+	padding: 10px 20px 15px 30px;
+	background-color: #ececed;
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+.dws-menu > ul li:first-child {
+	border-left: 1px solid #b3b5b7;
+}
+.dws-menu > ul li a:hover {
+	color: white;
+	background: black;
+	transition: 0.3s;
+}
+.dws-menu li > ul  {
+	position: absolute;
+	min-width: 120px;
+	display: none;
+}
+.dws-menu li > ul li {
+	border: 1px solid #b3b5b7;
+}
+.dws-menu li > ul li a{
+	padding: 10px;
+	text-align: center;
+}
+.dws-menu li:hover ul {
+	display: block;
+	
+}
+.img {
+	position: absolute;
+	width: 50px;
+	
+}
+.img:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+.all {
+	display: flex;
+	position: relative;
+	top: 150px;	
+}
+.Andrey {
+	
+	background: #ececed;
+	text-align: center;
+	width: 380px;
+	height: 380px;
+	border: 1px solid red;
+}
+.Andrey > h2 {
+	
+}
+.Andreyimg {
+	
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;	
+}
+.Tima {
+	margin-left: 150px;
+	background: #ececed;
+	text-align: center;
+	width: 350px;
+	height: 350px;
+	
+	border: 1px solid red;
+}
+.Timaimg {	
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;		
+}
+.Jane {
+	margin-left: 150px;
+	background: #ececed;
+	text-align: center;
+	width: 350px;
+	height: 350px;
+	
+	border: 1px solid red;
+}
+.Janeimg {	
+	width: 290px;
+	height: 290px;
+	border-radius: 50%;		
+}
+.Roman {
+	margin-left: 150px;
+	background: #ececed;
+	text-align: center;
+	width: 350px;
+	height: 350px;	
+	border: 1px solid red;
+}
+.Romanimg {	
+	width: 290px;
+	height: 290px;
+	border-radius: 50%;		
+}
+.all2 {
+	display: flex;
+	position: relative;
+	top: 200px;
+}
+.Kolya {	
+	background: #ececed;
+	text-align: center;
+	width: 270px;
+	height: 350px;
+	position: relative;	
+	border: 1px solid red;
+}
+.Kolyaimg {	
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;		
+}
+.Ivan {
+	margin-left: 150px;
+	background: #ececed;
+	text-align: center;
+	width: 300px;
+	height: 350px;
+	position: relative;	
+	border: 1px solid red;
+}
+.Ivanimg {	
+	width: 290px;
+	height: 290px;
+	border-radius: 50%;		
+}
+.Oleg {
+	margin-left: 130px;
+	background: #ececed;
+	text-align: center;
+	width: 300px;
+	height: 350px;
+	position: relative;	
+	border: 1px solid red;
+}
+.Olegimg {	
+	width: 290px;
+	height: 290px;
+	border-radius: 50%;		
+}
+.Nikita {
+	margin-left: 150px;
+	background: #ececed;
+	text-align: center;
+	width: 300px;
+	height: 350px;
+	position: relative;	
+	border: 1px solid red;
+}
+.Nikitaimg {	
+	width: 290px;
+	height: 290px;
+	border-radius: 50%;		
+}
+
+
+
